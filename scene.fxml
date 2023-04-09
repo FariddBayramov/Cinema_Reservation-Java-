@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="681.0" prefWidth="943.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cinema_reservation_system.scenecontroller">
+   <children>
+      <Button fx:id="button1" layoutX="83.0" layoutY="188.0" mnemonicParsing="false" onAction="#button1colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttoncouple2" disable="true" layoutX="581.0" layoutY="188.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttoncouple1" layoutX="507.0" layoutY="189.0" mnemonicParsing="false" onAction="#buttoncouple12colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button5" layoutX="354.0" layoutY="188.0" mnemonicParsing="false" onAction="#button5colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button4" layoutX="286.0" layoutY="188.0" mnemonicParsing="false" onAction="#button4colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button3" layoutX="218.0" layoutY="188.0" mnemonicParsing="false" onAction="#button3colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button2" layoutX="151.0" layoutY="188.0" mnemonicParsing="false" onAction="#button2colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button6" layoutX="83.0" layoutY="258.0" mnemonicParsing="false" onAction="#button6colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttoncouple4" disable="true" layoutX="581.0" layoutY="258.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttoncouple3" layoutX="507.0" layoutY="259.0" mnemonicParsing="false" onAction="#buttoncouple34colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button10" layoutX="354.0" layoutY="258.0" mnemonicParsing="false" onAction="#button10colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button9" layoutX="286.0" layoutY="258.0" mnemonicParsing="false" onAction="#button9colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button8" layoutX="218.0" layoutY="258.0" mnemonicParsing="false" onAction="#button8colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button7" layoutX="151.0" layoutY="258.0" mnemonicParsing="false" onAction="#button7colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttonvip1" layoutX="102.0" layoutY="490.0" mnemonicParsing="false" onAction="#buttonvip1colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttonvip7" layoutX="557.0" layoutY="490.0" mnemonicParsing="false" onAction="#buttonvip7colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttonvip6" layoutX="482.0" layoutY="490.0" mnemonicParsing="false" onAction="#buttonvip6colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttonvip5" layoutX="373.0" layoutY="490.0" mnemonicParsing="false" onAction="#buttonvip5colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttonvip4" layoutX="305.0" layoutY="490.0" mnemonicParsing="false" onAction="#buttonvip4colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttonvip3" layoutX="237.0" layoutY="490.0" mnemonicParsing="false" onAction="#buttonvip3colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttonvip2" layoutX="170.0" layoutY="490.0" mnemonicParsing="false" onAction="#buttonvip2colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button16" layoutX="83.0" layoutY="392.0" mnemonicParsing="false" onAction="#button16colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttoncouple8" disable="true" layoutX="581.0" layoutY="393.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttoncouple7" layoutX="507.0" layoutY="393.0" mnemonicParsing="false" onAction="#buttoncouple78colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button20" layoutX="354.0" layoutY="392.0" mnemonicParsing="false" onAction="#button20colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button19" layoutX="286.0" layoutY="392.0" mnemonicParsing="false" onAction="#button19colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button18" layoutX="218.0" layoutY="392.0" mnemonicParsing="false" onAction="#button18colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button17" layoutX="151.0" layoutY="392.0" mnemonicParsing="false" onAction="#button17colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button11" layoutX="83.0" layoutY="327.0" mnemonicParsing="false" onAction="#button11colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttoncouple6" disable="true" layoutX="581.0" layoutY="328.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="buttoncouple5" layoutX="507.0" layoutY="328.0" mnemonicParsing="false" onAction="#buttoncouple56colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button15" layoutX="354.0" layoutY="327.0" mnemonicParsing="false" onAction="#button15colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button14" layoutX="286.0" layoutY="327.0" mnemonicParsing="false" onAction="#button14colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button13" layoutX="218.0" layoutY="327.0" mnemonicParsing="false" onAction="#button13colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Button fx:id="button12" layoutX="151.0" layoutY="327.0" mnemonicParsing="false" onAction="#button12colorchange" prefHeight="59.0" prefWidth="61.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#911010" height="158.0" layoutX="73.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="581.0" />
+      <Label layoutX="110.0" layoutY="17.0" prefHeight="127.0" prefWidth="587.0" text="     SCENE" textFill="#000a0b">
+         <font>
+            <Font name="Berlin Sans FB" size="96.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="59.0" layoutX="122.0" layoutY="580.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="59.0" layoutX="284.0" layoutY="580.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e1eaf2" height="59.0" layoutX="439.0" layoutY="580.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="59.0" layoutX="595.0" layoutY="580.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Label layoutX="125.0" layoutY="601.0" text="Choosen">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="287.0" layoutY="593.0" text="Choosen">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="302.0" layoutY="610.0" text="VIP">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="449.0" layoutY="601.0" text="Empty">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="609.0" layoutY="601.0" text="Sold" textFill="#dfdfdf">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#tofilms" text="Back">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font></Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="171.0" layoutX="676.0" layoutY="33.0" stroke="BLACK" strokeType="INSIDE" width="242.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="171.0" layoutX="676.0" layoutY="217.0" stroke="BLACK" strokeType="INSIDE" width="242.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="676.0" layoutY="451.0" stroke="BLACK" strokeType="INSIDE" width="242.0" />
+      <Text layoutX="686.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Sum:">
+         <font>
+            <Font name="Bodoni MT Bold" size="20.0" />
+         </font>
+      </Text>
+      <QuadCurve controlX="-6.8000030517578125" controlY="137.60000610351562" endX="-54.0000114440918" endY="504.0" fill="#4963f4" layoutX="54.0" layoutY="184.0" startX="-54.00001525878906" startY="-196.0" stroke="BLACK" strokeType="INSIDE" />
+      <QuadCurve controlX="399.6000061035156" controlY="-34.0" endX="880.3999633789062" endY="7.0" fill="#ffe91f" layoutX="54.0" layoutY="674.0" startX="-64.4000244140625" startY="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text layoutX="699.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Normal seat:">
+         <font>
+            <Font name="Source Code Pro Medium" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#1fb900" layoutX="699.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VIP seat:">
+         <font>
+            <Font name="Source Code Pro Semibold" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#ff0000" layoutX="699.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Double seat:">
+         <font>
+            <Font name="Source Code Pro Semibold" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#bfbd53" layoutX="687.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corn">
+         <font>
+            <Font name="Stencil" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#183eff" layoutX="687.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drinks">
+         <font>
+            <Font name="Stencil" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="725.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sum:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="725.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sum:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Button layoutX="777.0" layoutY="580.0" mnemonicParsing="false" onAction="#buy" prefHeight="59.0" prefWidth="127.0" text="Buy all">
+         <font>
+            <Font name="Viner Hand ITC" size="22.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="-0.34" contrast="0.34" hue="0.58" saturation="0.43" />
+         </effect>
+      </Button>
+      <Button layoutX="751.0" layoutY="246.0" mnemonicParsing="false" onAction="#cornminus" prefHeight="25.0" prefWidth="33.0" text="-" />
+      <Button layoutX="817.0" layoutY="247.0" mnemonicParsing="false" onAction="#cornplus" prefHeight="25.0" prefWidth="33.0" text="+" />
+      <Button layoutX="817.0" layoutY="285.0" mnemonicParsing="false" onAction="#drinksplus" prefHeight="25.0" prefWidth="33.0" text="+" />
+      <Button layoutX="751.0" layoutY="285.0" mnemonicParsing="false" onAction="#drinksminus" prefHeight="25.0" prefWidth="33.0" text="-" />
+      <TextField fx:id="corn" layoutX="787.0" layoutY="247.0" prefHeight="25.0" prefWidth="28.0" text="0" />
+      <TextField fx:id="drinks" layoutX="787.0" layoutY="285.0" prefHeight="25.0" prefWidth="28.0" text="0" />
+      <TextField fx:id="sum1" layoutX="779.0" layoutY="153.0" prefHeight="25.0" prefWidth="45.0" text="0" />
+      <TextField fx:id="sum2" layoutX="779.0" layoutY="328.0" prefHeight="25.0" prefWidth="45.0" text="0" />
+      <TextField fx:id="totalsum" layoutX="793.0" layoutY="467.0" prefHeight="41.0" prefWidth="61.0" text="0" />
+      <TextField fx:id="normalseat" layoutX="790.0" layoutY="39.0" prefHeight="25.0" prefWidth="24.0" text="0" />
+      <TextField fx:id="vipseat" layoutX="790.0" layoutY="76.0" prefHeight="25.0" prefWidth="24.0" text="0" />
+      <TextField fx:id="doubleseat" layoutX="790.0" layoutY="115.0" prefHeight="25.0" prefWidth="24.0" text="0" />
+   </children>
+</Pane>
