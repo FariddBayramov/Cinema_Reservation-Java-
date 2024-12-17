@@ -81,18 +81,18 @@ Welcome to the **Cinema Reservation App**! This is a JavaFX-based application th
 CinemaReservationApp/
 │
 ├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── controller/      # Application controllers
-│   │   │   ├── model/           # Data models (e.g., Seat, Movie)
-│   │   │   └── Main.java        # Application entry point
-│   │   │
-│   │   ├── resources/
-│   │       ├── fxml/            # FXML files for UI
-│   │       ├── images/          # UI images and icons
-│   │       └── styles.css       # Custom styles
-│
-└── README.md
+│   ├── Main.fxml                # Main FXML file for the welcome screen
+│   ├── README.md                # Project documentation
+│   ├── Scene1.java              # Logic for Scene1
+│   ├── films.fxml               # FXML file for movie selection
+│   ├── filmscontroller.java     # Controller for films.fxml
+│   ├── maincontroller.java      # Main application controller
+│   ├── matrix.jpg               # Image resource for "Matrix"
+│   ├── mycinema.jpg             # Image resource for cinema theme
+│   ├── scene.fxml               # FXML file for scenes
+│   ├── scenecontroller.java     # Controller for scene.fxml
+│   ├── shawshank.jpg            # Image resource for "Shawshank Redemption"
+│   └── taken.jpg                # Image resource for "Taken"
 ```
 
 ---
