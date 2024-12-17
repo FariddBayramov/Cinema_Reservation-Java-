@@ -40,7 +40,7 @@ Welcome to the **Cinema Reservation App**! This is a JavaFX-based application th
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/cinema-reservation-app.git
+   git clone https://github.com/FariddBayramov/cinema-reservation-app.git
    ```
 
 2. Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
@@ -104,7 +104,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## 🧑‍💻 Author
 - **Your Name** - *Developer*
-- GitHub: [YourUsername](https://github.com/your-username)
+- GitHub: [FariddBayramov](https://github.com/FariddBayramov)
 
 ---
 
